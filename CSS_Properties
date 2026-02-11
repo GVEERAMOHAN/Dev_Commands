@@ -1,0 +1,96 @@
+@## Inline, Internal, External:-
+
+1. Inline(In .html file):
+<body>
+  <tag style=".......;"></tag>
+</body>
+
+2. Internal(In .html file):
+<head>
+  <style>
+    .......;
+  </style>
+</head>
+
+3. External(In .css file):
+........;
+
+______________________________________________________________________
+#. Text & Font Properties-
+
+color –> Defines the foreground color of text inside an element.
+font-size –> Specifies the size of the text using units like px, em, rem, or %.
+font-family –> Sets the typeface of the text, including fallback fonts.
+font-weight –> Controls the thickness of text (normal, bold, 100–900).
+font-style –> Applies italic or normal styling to text.
+text-align –> Aligns inline content horizontally within its container.
+text-decoration –> Adds decorative lines such as underline or line-through.
+text-transform –> Changes text case (uppercase, lowercase, capitalize).
+letter-spacing –> Adjusts spacing between individual characters.
+line-height –> Controls vertical spacing between lines of text.
+
+______________________________________________________________________
+#. Box Model Properties-
+
+width –> Sets the horizontal size of an element’s content area.
+height –> Sets the vertical size of an element’s content area.
+max-width –> Limits the maximum width an element can grow to.
+min-width –> Ensures the element does not shrink below a certain width.
+margin –> Adds space outside the element, separating it from others.
+margin-top/right/bottom/left –> Controls margin on individual sides.
+padding –> Adds space inside the element between content and border.
+padding-top/right/bottom/left –> Controls padding on individual sides.
+border –> Adds a border around the element combining width, style, and color.
+border-width –> Defines the thickness of the border.
+border-style –> Specifies border pattern (solid, dotted, dashed, etc.).
+border-color –> Sets the color of the border.
+border-radius –> Rounds the corners of an element’s border.
+box-sizing –> Determines whether padding and border are included in width/height calculations.
+
+______________________________________________________________________
+#. Background Properties-
+
+background-color –> Sets the background color of an element.
+background-image –> Applies an image as the background of an element.
+background-size –> Controls scaling of the background image (cover, contain).
+background-position –> Defines where the background image is placed.
+background-repeat –> Controls whether the background image repeats or not.
+
+______________________________________________________________________
+#. Layout & Positioning-
+
+display –> Defines how an element is rendered (block, inline, flex, grid, etc.).
+position –> Specifies positioning method (static, relative, absolute, fixed, sticky).
+top –> Moves a positioned element downward from its reference point.
+bottom –> Moves a positioned element upward from the bottom reference.
+left –> Moves a positioned element rightward from the left reference.
+right –> Moves a positioned element leftward from the right reference.
+overflow –> Controls what happens when content exceeds container size.
+visibility –> Hides an element while keeping its layout space reserved.
+
+______________________________________________________________________
+#. Flexbox Properties(Very Important)-
+
+justify-content –> Aligns flex items horizontally within a flex container.
+align-items –> Aligns flex items vertically within a flex container.
+flex-direction –> Sets direction of flex items (row, column).
+flex-wrap –> Allows flex items to wrap onto multiple lines.
+gap –> Defines spacing between flex or grid items.
+
+______________________________________________________________________
+#. Grid Properties-
+
+grid-template-columns –> Defines number and size of grid columns.
+grid-template-rows –> Defines number and size of grid rows.
+grid-gap / gap –> Sets spacing between grid rows and columns.
+
+______________________________________________________________________
+#. Effects & Advanced Properties-
+
+opacity –> Controls transparency level of an element (0–1).
+box-shadow –> Adds shadow effect around an element’s box.
+text-shadow –> Adds shadow effect to text characters.
+transform –> Applies visual transformations like rotate, scale, translate.
+transition –> Adds smooth animation when CSS properties change.
+z-index –> Controls stacking order of overlapping positioned elements.
+cursor –> Changes mouse pointer appearance when hovering over element.
